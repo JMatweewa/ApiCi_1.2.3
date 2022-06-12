@@ -19,6 +19,6 @@ public class Postman_echo {
                 .then()
 
                 .statusCode(200)
-                .body("data", equalTo("average data value"));
+                .body("data", equalTo("some data"));
     }
 }
